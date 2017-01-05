@@ -1,0 +1,342 @@
+CPU: Intel® Core™ i7-4790K Processor (8M Cache, up to 4.40 GHz)
+CPU year: 2014 Q2
+CPU info: http://ark.intel.com/products/80807/Intel-Core-i7-4790K-Processor-8M-Cache-up-to-4_40-GHz?q=i7-4790K
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+bench_01_null_call_stack
+average real 0.017 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.018 user 0.016 system 0.000
+real 0.018 user 0.016 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.017 user 0.016 system 0.000
+bench_02_getpid_syscall
+average real 0.316 user 0.092 system 0.222
+real 0.320 user 0.076 system 0.240
+real 0.315 user 0.092 system 0.220
+real 0.314 user 0.092 system 0.220
+real 0.317 user 0.068 system 0.248
+real 0.318 user 0.100 system 0.216
+real 0.314 user 0.120 system 0.192
+real 0.318 user 0.124 system 0.192
+real 0.313 user 0.076 system 0.236
+real 0.316 user 0.096 system 0.216
+real 0.316 user 0.080 system 0.236
+bench_03_getpid_vdso
+average real 0.027 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+bench_10_read_syscall
+average real 0.078 user 0.012 system 0.064
+real 0.072 user 0.016 system 0.056
+real 0.079 user 0.012 system 0.064
+real 0.079 user 0.012 system 0.064
+real 0.079 user 0.008 system 0.068
+real 0.079 user 0.020 system 0.056
+real 0.079 user 0.004 system 0.072
+real 0.076 user 0.008 system 0.064
+real 0.080 user 0.012 system 0.068
+real 0.082 user 0.012 system 0.068
+real 0.076 user 0.012 system 0.060
+bench_11_read_vdso
+average real 0.082 user 0.012 system 0.067
+real 0.083 user 0.008 system 0.072
+real 0.079 user 0.000 system 0.076
+real 0.083 user 0.016 system 0.064
+real 0.082 user 0.016 system 0.064
+real 0.084 user 0.012 system 0.072
+real 0.080 user 0.004 system 0.072
+real 0.083 user 0.024 system 0.056
+real 0.079 user 0.016 system 0.060
+real 0.080 user 0.012 system 0.064
+real 0.084 user 0.012 system 0.068
+bench_12_read_stdio
+average real 0.012 user 0.010 system 0.000
+real 0.010 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.011 user 0.008 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.011 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.010 user 0.008 system 0.000
+real 0.014 user 0.012 system 0.000
+bench_20_write_syscall
+average real 0.059 user 0.013 system 0.044
+real 0.058 user 0.012 system 0.044
+real 0.062 user 0.012 system 0.048
+real 0.058 user 0.008 system 0.048
+real 0.058 user 0.016 system 0.040
+real 0.059 user 0.024 system 0.032
+real 0.067 user 0.016 system 0.048
+real 0.058 user 0.008 system 0.048
+real 0.059 user 0.016 system 0.040
+real 0.052 user 0.016 system 0.036
+real 0.061 user 0.004 system 0.056
+bench_21_write_vdso
+average real 0.062 user 0.014 system 0.047
+real 0.061 user 0.012 system 0.048
+real 0.060 user 0.008 system 0.052
+real 0.065 user 0.012 system 0.052
+real 0.063 user 0.032 system 0.028
+real 0.061 user 0.004 system 0.056
+real 0.060 user 0.016 system 0.044
+real 0.066 user 0.008 system 0.056
+real 0.065 user 0.012 system 0.052
+real 0.057 user 0.020 system 0.036
+real 0.060 user 0.012 system 0.044
+bench_22_write_stdio
+average real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.015 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.012 user 0.008 system 0.004
+real 0.013 user 0.012 system 0.000
+real 0.015 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+real 0.014 user 0.012 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4399.843
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 60
+model name	: Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+stepping	: 3
+microcode	: 0x19
+cpu MHz		: 4400.000
+cache size	: 8192 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 7981.99
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+

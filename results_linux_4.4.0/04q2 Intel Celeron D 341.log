@@ -1,0 +1,154 @@
+CPU: Intel® Celeron® D Processor 341 (256K Cache, 2.93 GHz, 533 MHz FSB)
+CPU year: 2004 Q2
+CPU SPEC code: SL8HB
+CPU info: http://ark.intel.com/products/27122/Intel-Celeron-D-Processor-341-256K-Cache-2_93-GHz-533-MHz-FSB#@specifications
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.067 user 0.043 system 0.000
+real 0.078 user 0.040 system 0.000
+real 0.069 user 0.048 system 0.000
+real 0.090 user 0.044 system 0.000
+real 0.064 user 0.044 system 0.000
+real 0.059 user 0.044 system 0.000
+real 0.064 user 0.044 system 0.000
+real 0.060 user 0.040 system 0.004
+real 0.068 user 0.048 system 0.000
+real 0.062 user 0.040 system 0.000
+real 0.058 user 0.040 system 0.000
+bench_01_null_call_stack
+average real 0.070 user 0.048 system 0.000
+real 0.075 user 0.048 system 0.000
+real 0.077 user 0.048 system 0.000
+real 0.065 user 0.048 system 0.000
+real 0.064 user 0.048 system 0.000
+real 0.082 user 0.048 system 0.000
+real 0.065 user 0.048 system 0.000
+real 0.069 user 0.048 system 0.000
+real 0.075 user 0.048 system 0.000
+real 0.065 user 0.048 system 0.000
+real 0.067 user 0.048 system 0.000
+bench_02_getpid_syscall
+average real 2.203 user 0.926 system 1.210
+real 2.228 user 0.960 system 1.176
+real 2.232 user 0.904 system 1.232
+real 2.212 user 0.908 system 1.228
+real 2.217 user 0.940 system 1.196
+real 2.203 user 1.000 system 1.136
+real 2.191 user 0.868 system 1.268
+real 2.188 user 0.884 system 1.252
+real 2.181 user 0.936 system 1.200
+real 2.190 user 0.896 system 1.240
+real 2.187 user 0.968 system 1.168
+bench_03_getpid_vdso
+average real 0.087 user 0.067 system 0.000
+real 0.096 user 0.068 system 0.000
+real 0.099 user 0.072 system 0.000
+real 0.085 user 0.064 system 0.000
+real 0.080 user 0.064 system 0.000
+real 0.098 user 0.068 system 0.000
+real 0.087 user 0.072 system 0.000
+real 0.089 user 0.068 system 0.000
+real 0.083 user 0.064 system 0.000
+real 0.074 user 0.064 system 0.000
+real 0.081 user 0.064 system 0.000
+bench_10_read_syscall
+average real 0.416 user 0.095 system 0.269
+real 0.442 user 0.116 system 0.248
+real 0.415 user 0.096 system 0.268
+real 0.406 user 0.100 system 0.264
+real 0.419 user 0.080 system 0.284
+real 0.418 user 0.096 system 0.268
+real 0.413 user 0.108 system 0.256
+real 0.418 user 0.092 system 0.272
+real 0.410 user 0.096 system 0.268
+real 0.411 user 0.080 system 0.284
+real 0.413 user 0.084 system 0.280
+bench_11_read_vdso
+average real 0.425 user 0.099 system 0.273
+real 0.436 user 0.112 system 0.260
+real 0.419 user 0.100 system 0.272
+real 0.425 user 0.080 system 0.292
+real 0.420 user 0.084 system 0.288
+real 0.419 user 0.088 system 0.284
+real 0.429 user 0.116 system 0.256
+real 0.415 user 0.084 system 0.288
+real 0.437 user 0.120 system 0.252
+real 0.427 user 0.096 system 0.276
+real 0.421 user 0.108 system 0.264
+bench_12_read_stdio
+average real 0.054 user 0.033 system 0.000
+real 0.071 user 0.032 system 0.004
+real 0.052 user 0.036 system 0.000
+real 0.057 user 0.032 system 0.000
+real 0.048 user 0.032 system 0.000
+real 0.051 user 0.032 system 0.000
+real 0.052 user 0.032 system 0.000
+real 0.053 user 0.032 system 0.000
+real 0.048 user 0.032 system 0.000
+real 0.052 user 0.032 system 0.000
+real 0.053 user 0.036 system 0.000
+bench_20_write_syscall
+average real 0.349 user 0.098 system 0.202
+real 0.371 user 0.096 system 0.204
+real 0.344 user 0.100 system 0.196
+real 0.346 user 0.072 system 0.224
+real 0.344 user 0.116 system 0.180
+real 0.346 user 0.100 system 0.196
+real 0.367 user 0.140 system 0.188
+real 0.346 user 0.112 system 0.184
+real 0.337 user 0.072 system 0.224
+real 0.345 user 0.100 system 0.196
+real 0.347 user 0.072 system 0.224
+bench_21_write_vdso
+average real 0.367 user 0.092 system 0.219
+real 0.380 user 0.056 system 0.252
+real 0.358 user 0.112 system 0.192
+real 0.381 user 0.104 system 0.232
+real 0.361 user 0.104 system 0.200
+real 0.355 user 0.084 system 0.220
+real 0.388 user 0.084 system 0.252
+real 0.360 user 0.092 system 0.212
+real 0.355 user 0.072 system 0.232
+real 0.346 user 0.104 system 0.200
+real 0.383 user 0.104 system 0.200
+bench_22_write_stdio
+average real 0.057 user 0.036 system 0.000
+real 0.067 user 0.040 system 0.000
+real 0.056 user 0.036 system 0.000
+real 0.064 user 0.040 system 0.000
+real 0.059 user 0.036 system 0.000
+real 0.055 user 0.032 system 0.004
+real 0.051 user 0.036 system 0.000
+real 0.058 user 0.036 system 0.000
+real 0.055 user 0.036 system 0.000
+real 0.055 user 0.036 system 0.000
+real 0.054 user 0.036 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Celeron(R) CPU 2.93GHz
+stepping	: 9
+microcode	: 0x3
+cpu MHz		: 2931.495
+cache size	: 256 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl tm2 cid cx16 xtpr lahf_lm
+bugs		:
+bogomips	: 5862.99
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+

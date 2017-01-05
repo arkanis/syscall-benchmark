@@ -1,0 +1,181 @@
+CPU: Intel® Pentium® 4 Processor 660 supporting HT Technology (2M Cache, 3.60 GHz, 800 MHz FSB)
+CPU year: 2005 Q1
+CPU SPEC code: SL7Z5
+CPU info: http://ark.intel.com/products/27484/Intel-Pentium-4-Processor-660-supporting-HT-Technology-2M-Cache-3_60-GHz-800-MHz-FSB#@specifications
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.046 user 0.042 system 0.000
+real 0.045 user 0.040 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.044 user 0.040 system 0.000
+real 0.045 user 0.040 system 0.000
+real 0.049 user 0.044 system 0.000
+real 0.044 user 0.040 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.044 user 0.040 system 0.000
+real 0.049 user 0.044 system 0.000
+real 0.044 user 0.040 system 0.000
+bench_01_null_call_stack
+average real 0.061 user 0.054 system 0.000
+real 0.059 user 0.048 system 0.004
+real 0.059 user 0.052 system 0.000
+real 0.061 user 0.056 system 0.000
+real 0.056 user 0.052 system 0.000
+real 0.063 user 0.052 system 0.000
+real 0.063 user 0.056 system 0.000
+real 0.062 user 0.052 system 0.000
+real 0.067 user 0.060 system 0.000
+real 0.061 user 0.060 system 0.000
+real 0.058 user 0.056 system 0.000
+bench_02_getpid_syscall
+average real 2.239 user 0.957 system 1.243
+real 2.187 user 0.964 system 1.216
+real 2.223 user 0.912 system 1.304
+real 2.453 user 0.876 system 1.256
+real 2.226 user 0.996 system 1.224
+real 2.229 user 0.944 system 1.280
+real 2.225 user 0.956 system 1.264
+real 2.233 user 0.968 system 1.256
+real 2.226 user 1.000 system 1.216
+real 2.158 user 0.988 system 1.160
+real 2.227 user 0.964 system 1.256
+bench_03_getpid_vdso
+average real 0.071 user 0.066 system 0.000
+real 0.070 user 0.064 system 0.000
+real 0.067 user 0.064 system 0.000
+real 0.068 user 0.064 system 0.000
+real 0.067 user 0.064 system 0.000
+real 0.070 user 0.064 system 0.000
+real 0.077 user 0.072 system 0.000
+real 0.072 user 0.068 system 0.000
+real 0.074 user 0.068 system 0.000
+real 0.071 user 0.068 system 0.000
+real 0.069 user 0.064 system 0.000
+bench_10_read_syscall
+average real 0.389 user 0.096 system 0.288
+real 0.388 user 0.124 system 0.260
+real 0.389 user 0.092 system 0.292
+real 0.389 user 0.084 system 0.300
+real 0.389 user 0.104 system 0.280
+real 0.388 user 0.084 system 0.300
+real 0.394 user 0.104 system 0.284
+real 0.377 user 0.092 system 0.280
+real 0.391 user 0.084 system 0.304
+real 0.397 user 0.104 system 0.288
+real 0.392 user 0.088 system 0.296
+bench_11_read_vdso
+average real 0.402 user 0.108 system 0.290
+real 0.402 user 0.088 system 0.308
+real 0.399 user 0.108 system 0.284
+real 0.395 user 0.108 system 0.284
+real 0.397 user 0.104 system 0.292
+real 0.429 user 0.128 system 0.296
+real 0.424 user 0.128 system 0.292
+real 0.393 user 0.128 system 0.260
+real 0.399 user 0.108 system 0.284
+real 0.388 user 0.096 system 0.288
+real 0.398 user 0.084 system 0.308
+bench_12_read_stdio
+average real 0.040 user 0.036 system 0.000
+real 0.041 user 0.036 system 0.000
+real 0.038 user 0.036 system 0.000
+real 0.040 user 0.032 system 0.004
+real 0.041 user 0.036 system 0.000
+real 0.040 user 0.036 system 0.000
+real 0.040 user 0.036 system 0.000
+real 0.042 user 0.040 system 0.000
+real 0.041 user 0.036 system 0.000
+real 0.039 user 0.036 system 0.000
+real 0.041 user 0.040 system 0.000
+bench_20_write_syscall
+average real 0.318 user 0.097 system 0.217
+real 0.316 user 0.100 system 0.212
+real 0.315 user 0.116 system 0.196
+real 0.320 user 0.096 system 0.220
+real 0.318 user 0.096 system 0.220
+real 0.317 user 0.108 system 0.204
+real 0.319 user 0.080 system 0.236
+real 0.319 user 0.072 system 0.244
+real 0.319 user 0.100 system 0.216
+real 0.318 user 0.088 system 0.224
+real 0.317 user 0.112 system 0.200
+bench_21_write_vdso
+average real 0.326 user 0.099 system 0.222
+real 0.321 user 0.080 system 0.236
+real 0.329 user 0.104 system 0.220
+real 0.326 user 0.092 system 0.228
+real 0.323 user 0.092 system 0.228
+real 0.325 user 0.084 system 0.236
+real 0.328 user 0.108 system 0.216
+real 0.324 user 0.120 system 0.200
+real 0.328 user 0.136 system 0.188
+real 0.325 user 0.088 system 0.232
+real 0.328 user 0.084 system 0.240
+bench_22_write_stdio
+average real 0.045 user 0.040 system 0.001
+real 0.046 user 0.040 system 0.000
+real 0.042 user 0.036 system 0.004
+real 0.044 user 0.040 system 0.000
+real 0.044 user 0.040 system 0.000
+real 0.048 user 0.040 system 0.004
+real 0.046 user 0.040 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.046 user 0.040 system 0.000
+real 0.047 user 0.040 system 0.004
+real 0.040 user 0.036 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Pentium(R) 4 CPU 3.60GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 3600.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl est tm2 cid cx16 xtpr
+bugs		:
+bogomips	: 7221.81
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 15
+model		: 4
+model name	: Intel(R) Pentium(R) 4 CPU 3.60GHz
+stepping	: 3
+microcode	: 0x5
+cpu MHz		: 3200.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 1
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc pebs bts nopl pni dtes64 monitor ds_cpl est tm2 cid cx16 xtpr
+bugs		:
+bogomips	: 7221.81
+clflush size	: 64
+cache_alignment	: 128
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+

@@ -1,0 +1,234 @@
+CPU: Intel® Core™ i5-5675C Processor (4M Cache, up to 3.60 GHz)
+CPU year: 2015 Q2
+CPU info: http://ark.intel.com/products/88095/Intel-Core-i5-5675C-Processor-4M-Cache-up-to-3_60-GHz?q=i5-5675C
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.016 user 0.013 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.020 user 0.016 system 0.000
+real 0.012 user 0.012 system 0.000
+real 0.011 user 0.008 system 0.000
+real 0.011 user 0.008 system 0.000
+real 0.011 user 0.008 system 0.000
+real 0.011 user 0.008 system 0.000
+real 0.011 user 0.008 system 0.000
+real 0.011 user 0.008 system 0.000
+bench_01_null_call_stack
+average real 0.016 user 0.015 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.012 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.016 system 0.000
+real 0.016 user 0.012 system 0.000
+bench_02_getpid_syscall
+average real 0.377 user 0.172 system 0.204
+real 0.377 user 0.268 system 0.108
+real 0.376 user 0.132 system 0.244
+real 0.377 user 0.208 system 0.168
+real 0.377 user 0.264 system 0.112
+real 0.377 user 0.108 system 0.268
+real 0.377 user 0.152 system 0.224
+real 0.377 user 0.120 system 0.256
+real 0.377 user 0.172 system 0.204
+real 0.377 user 0.188 system 0.188
+real 0.377 user 0.108 system 0.268
+bench_03_getpid_vdso
+average real 0.028 user 0.028 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+bench_10_read_syscall
+average real 0.097 user 0.015 system 0.080
+real 0.096 user 0.028 system 0.068
+real 0.097 user 0.012 system 0.084
+real 0.096 user 0.012 system 0.084
+real 0.097 user 0.028 system 0.068
+real 0.096 user 0.012 system 0.080
+real 0.098 user 0.012 system 0.084
+real 0.096 user 0.004 system 0.088
+real 0.097 user 0.004 system 0.092
+real 0.096 user 0.008 system 0.084
+real 0.098 user 0.028 system 0.068
+bench_11_read_vdso
+average real 0.101 user 0.005 system 0.094
+real 0.103 user 0.000 system 0.096
+real 0.101 user 0.000 system 0.100
+real 0.100 user 0.000 system 0.100
+real 0.101 user 0.000 system 0.100
+real 0.100 user 0.004 system 0.096
+real 0.102 user 0.016 system 0.084
+real 0.100 user 0.008 system 0.092
+real 0.101 user 0.004 system 0.096
+real 0.100 user 0.012 system 0.084
+real 0.101 user 0.008 system 0.092
+bench_12_read_stdio
+average real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+real 0.012 user 0.008 system 0.000
+bench_20_write_syscall
+average real 0.064 user 0.016 system 0.048
+real 0.065 user 0.016 system 0.048
+real 0.066 user 0.012 system 0.052
+real 0.064 user 0.012 system 0.052
+real 0.065 user 0.012 system 0.052
+real 0.064 user 0.024 system 0.040
+real 0.064 user 0.004 system 0.060
+real 0.064 user 0.020 system 0.044
+real 0.064 user 0.020 system 0.044
+real 0.063 user 0.020 system 0.040
+real 0.064 user 0.016 system 0.048
+bench_21_write_vdso
+average real 0.061 user 0.008 system 0.058
+real 0.068 user 0.000 system 0.064
+real 0.067 user 0.004 system 0.060
+real 0.000 user 0.000 system 0.068
+real 0.067 user 0.004 system 0.060
+real 0.067 user 0.000 system 0.064
+real 0.069 user 0.024 system 0.044
+real 0.067 user 0.004 system 0.060
+real 0.067 user 0.000 system 0.064
+real 0.072 user 0.036 system 0.032
+real 0.069 user 0.008 system 0.060
+bench_22_write_stdio
+average real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+real 0.013 user 0.012 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 71
+model name	: Intel(R) Core(TM) i5-5675C CPU @ 3.10GHz
+stepping	: 1
+microcode	: 0x10
+cpu MHz		: 3599.996
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6199.41
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 71
+model name	: Intel(R) Core(TM) i5-5675C CPU @ 3.10GHz
+stepping	: 1
+microcode	: 0x10
+cpu MHz		: 3599.996
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6199.41
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 71
+model name	: Intel(R) Core(TM) i5-5675C CPU @ 3.10GHz
+stepping	: 1
+microcode	: 0x10
+cpu MHz		: 3600.117
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6199.41
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 71
+model name	: Intel(R) Core(TM) i5-5675C CPU @ 3.10GHz
+stepping	: 1
+microcode	: 0x10
+cpu MHz		: 3600.238
+cache size	: 4096 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 20
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch intel_pt tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm rdseed adx smap xsaveopt dtherm ida arat pln pts
+bugs		:
+bogomips	: 6199.41
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+

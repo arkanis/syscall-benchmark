@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="890" height="270">
+	<defs>
+		<style type="text/css">
+			text { font-family: sans-serif; font-size: 14px; color: #333; }
+			text.value { text-anchor: middle; }
+			text.unit { text-anchor: middle; font-size: 12px; }
+			text.label { text-anchor: middle; font-size: 10px; }
+			text.legend {}
+		</style>
+	</defs>
+	<g transform="translate(10, 10)">
+		<g>
+			<rect x="0" y="0" width="870" height="1" fill="#ccc"></rect>
+			<rect x="0" y="40" width="870" height="1" fill="#ccc"></rect>
+			<rect x="0" y="80" width="870" height="1" fill="#ccc"></rect>
+			<rect x="0" y="120" width="870" height="1" fill="#ccc"></rect>
+			<rect x="0" y="160" width="870" height="1" fill="#ccc"></rect>
+			<rect x="0" y="200" width="870" height="1" fill="black"></rect>
+		</g>
+		<g id="records" transform="translate(10, 0)">
+			<rect x="0" y="199" width="40" height="1" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="179">1.50</text>
+			<text class="unit" x="20" y="193">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">null_call_regs</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(100, 0)">
+			<rect x="0" y="199" width="40" height="1" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="179">1.70</text>
+			<text class="unit" x="20" y="193">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">null_call_stack</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(190, 0)">
+			<rect x="0" y="185" width="40" height="15" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="165">35.9</text>
+			<text class="unit" x="20" y="179">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">getpid_syscall</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(280, 0)">
+			<rect x="0" y="198" width="40" height="2" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="178">2.80</text>
+			<text class="unit" x="20" y="192">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">getpid_vdso</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(370, 0)">
+			<rect x="0" y="167" width="40" height="33" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="147">81.0</text>
+			<text class="unit" x="20" y="161">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">read_syscall</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(460, 0)">
+			<rect x="0" y="166" width="40" height="34" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="146">84.0</text>
+			<text class="unit" x="20" y="160">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">read_vdso</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(550, 0)">
+			<rect x="0" y="195" width="40" height="5" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="175">12.0</text>
+			<text class="unit" x="20" y="189">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">read_stdio</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(640, 0)">
+			<rect x="0" y="175" width="40" height="25" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="155">61.0</text>
+			<text class="unit" x="20" y="169">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">write_syscall</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(730, 0)">
+			<rect x="0" y="174" width="40" height="26" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="154">64.0</text>
+			<text class="unit" x="20" y="168">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">write_vdso</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(820, 0)">
+			<rect x="0" y="194" width="40" height="6" style="fill: #3366cc"></rect>
+			<text class="value" x="20" y="174">13.0</text>
+			<text class="unit" x="20" y="188">ns</text>
+			<text class="label" x="20" y ="220">
+				<tspan x="20">write_stdio</tspan>
+			</text>
+		</g>
+		
+		<g transform="translate(0, 230)">
+			<g id="foo0">
+				<rect x="0" y="0" width="14" height="14" style="fill: #3366cc"></rect>
+				<text class="legend" x="18" y="12">Wallclock time per call</text>
+			</g>
+		</g>
+	</g>
+</svg>

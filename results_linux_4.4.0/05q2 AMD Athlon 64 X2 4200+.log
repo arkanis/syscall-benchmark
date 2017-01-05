@@ -1,0 +1,182 @@
+CPU: AMD Athlon 64 X2 4200+ (Socket 939, rev. E6)
+CPU year: 2005 Q2
+CPU info: http://www.cpu-world.com/CPUs/K8/AMD-Athlon%2064%20X2%204200+%20-%20ADA4200DAA5CD%20(ADA4200CDBOX).html
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.040 user 0.036 system 0.000
+real 0.070 user 0.064 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.033 user 0.032 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.039 user 0.036 system 0.000
+real 0.037 user 0.032 system 0.000
+real 0.036 user 0.032 system 0.000
+real 0.038 user 0.032 system 0.000
+real 0.038 user 0.032 system 0.000
+real 0.038 user 0.032 system 0.000
+bench_01_null_call_stack
+average real 0.055 user 0.046 system 0.000
+real 0.053 user 0.048 system 0.000
+real 0.052 user 0.048 system 0.000
+real 0.052 user 0.048 system 0.000
+real 0.050 user 0.048 system 0.000
+real 0.050 user 0.044 system 0.000
+real 0.069 user 0.044 system 0.000
+real 0.054 user 0.044 system 0.000
+real 0.059 user 0.044 system 0.000
+real 0.054 user 0.044 system 0.000
+real 0.054 user 0.044 system 0.000
+bench_02_getpid_syscall
+average real 0.834 user 0.244 system 0.586
+real 0.827 user 0.232 system 0.592
+real 0.846 user 0.244 system 0.596
+real 0.838 user 0.208 system 0.624
+real 0.823 user 0.296 system 0.524
+real 0.848 user 0.236 system 0.608
+real 0.827 user 0.188 system 0.636
+real 0.824 user 0.228 system 0.592
+real 0.837 user 0.288 system 0.544
+real 0.845 user 0.252 system 0.588
+real 0.824 user 0.264 system 0.556
+bench_03_getpid_vdso
+average real 0.094 user 0.091 system 0.000
+real 0.075 user 0.072 system 0.000
+real 0.125 user 0.120 system 0.000
+real 0.073 user 0.068 system 0.000
+real 0.073 user 0.072 system 0.000
+real 0.077 user 0.076 system 0.000
+real 0.137 user 0.132 system 0.000
+real 0.140 user 0.136 system 0.000
+real 0.074 user 0.072 system 0.000
+real 0.079 user 0.076 system 0.000
+real 0.086 user 0.084 system 0.000
+bench_10_read_syscall
+average real 0.250 user 0.039 system 0.206
+real 0.246 user 0.056 system 0.188
+real 0.234 user 0.044 system 0.188
+real 0.241 user 0.032 system 0.200
+real 0.234 user 0.048 system 0.184
+real 0.245 user 0.036 system 0.204
+real 0.267 user 0.052 system 0.208
+real 0.253 user 0.020 system 0.228
+real 0.237 user 0.032 system 0.200
+real 0.233 user 0.040 system 0.188
+real 0.306 user 0.028 system 0.276
+bench_11_read_vdso
+average real 0.286 user 0.039 system 0.244
+real 0.290 user 0.048 system 0.240
+real 0.250 user 0.020 system 0.228
+real 0.242 user 0.036 system 0.204
+real 0.305 user 0.036 system 0.264
+real 0.276 user 0.068 system 0.204
+real 0.306 user 0.032 system 0.272
+real 0.308 user 0.016 system 0.288
+real 0.305 user 0.048 system 0.252
+real 0.326 user 0.044 system 0.280
+real 0.251 user 0.040 system 0.208
+bench_12_read_stdio
+average real 0.032 user 0.028 system 0.001
+real 0.029 user 0.028 system 0.000
+real 0.039 user 0.036 system 0.000
+real 0.033 user 0.028 system 0.000
+real 0.033 user 0.032 system 0.000
+real 0.033 user 0.028 system 0.000
+real 0.036 user 0.028 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.030 user 0.016 system 0.012
+real 0.031 user 0.028 system 0.000
+bench_20_write_syscall
+average real 0.225 user 0.040 system 0.156
+real 0.260 user 0.032 system 0.224
+real 0.172 user 0.044 system 0.124
+real 0.188 user 0.024 system 0.160
+real 0.189 user 0.052 system 0.132
+real 0.252 user 0.048 system 0.180
+real 0.206 user 0.020 system 0.156
+real 0.263 user 0.032 system 0.148
+real 0.304 user 0.040 system 0.140
+real 0.214 user 0.052 system 0.156
+real 0.202 user 0.060 system 0.140
+bench_21_write_vdso
+average real 0.200 user 0.042 system 0.154
+real 0.228 user 0.052 system 0.172
+real 0.180 user 0.020 system 0.156
+real 0.243 user 0.040 system 0.200
+real 0.176 user 0.036 system 0.136
+real 0.183 user 0.044 system 0.136
+real 0.177 user 0.052 system 0.124
+real 0.218 user 0.044 system 0.172
+real 0.207 user 0.052 system 0.148
+real 0.213 user 0.048 system 0.160
+real 0.179 user 0.036 system 0.140
+bench_22_write_stdio
+average real 0.040 user 0.035 system 0.000
+real 0.036 user 0.032 system 0.000
+real 0.039 user 0.032 system 0.000
+real 0.040 user 0.036 system 0.000
+real 0.040 user 0.032 system 0.004
+real 0.042 user 0.040 system 0.000
+real 0.039 user 0.036 system 0.000
+real 0.040 user 0.036 system 0.000
+real 0.043 user 0.036 system 0.000
+real 0.040 user 0.036 system 0.000
+real 0.040 user 0.036 system 0.000
+
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 35
+model name	: AMD Athlon(tm) 64 X2 Dual Core Processor 4200+
+stepping	: 2
+microcode	: 0x4d
+cpu MHz		: 2000.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt lm 3dnowext 3dnow rep_good nopl extd_apicid pni lahf_lm cmp_legacy 3dnowprefetch vmmcall
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 4018.17
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 15
+model		: 35
+model name	: AMD Athlon(tm) 64 X2 Dual Core Processor 4200+
+stepping	: 2
+microcode	: 0x4d
+cpu MHz		: 2000.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 1
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt lm 3dnowext 3dnow rep_good nopl extd_apicid pni lahf_lm cmp_legacy 3dnowprefetch vmmcall
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 4018.17
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management: ts fid vid ttp
+

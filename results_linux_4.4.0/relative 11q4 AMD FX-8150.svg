@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="480" height="284">
+	<defs>
+		<style type="text/css">
+			text { font-family: sans-serif; font-size: 14px; color: #333; }
+			text.value { text-anchor: middle; }
+			text.unit { text-anchor: middle; font-size: 12px; }
+			text.label { text-anchor: middle; font-size: 10px; }
+			text.legend {}
+		</style>
+	</defs>
+	<g transform="translate(10, 10)">
+		<g>
+			<rect x="0" y="0" width="460" height="1" fill="#ccc"></rect>
+			<rect x="0" y="40" width="460" height="1" fill="#ccc"></rect>
+			<rect x="0" y="80" width="460" height="1" fill="#ccc"></rect>
+			<rect x="0" y="120" width="460" height="1" fill="#ccc"></rect>
+			<rect x="0" y="160" width="460" height="1" fill="#ccc"></rect>
+			<rect x="0" y="200" width="460" height="1" fill="black"></rect>
+		</g>
+		<g id="records" transform="translate(15, 0)">
+			<rect x="0" y="124" width="46" height="76" style="fill: #dc3912"></rect>
+			<text class="value" x="23" y="110">15.2</text>
+			<text class="label" x="23" y ="220">
+				<tspan x="23">getpid</tspan>
+				<tspan x="23" dy="1.2em">vdso vs. syscall</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(111, 0)">
+			<rect x="0" y="195" width="46" height="5" style="fill: #dc3912"></rect>
+			<text class="value" x="23" y="181">0.96</text>
+			<text class="label" x="23" y ="220">
+				<tspan x="23">read</tspan>
+				<tspan x="23" dy="1.2em">vdso vs. syscall</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(207, 0)">
+			<rect x="0" y="161" width="46" height="39" style="fill: #dc3912"></rect>
+			<text class="value" x="23" y="147">7.66</text>
+			<text class="label" x="23" y ="220">
+				<tspan x="23">read</tspan>
+				<tspan x="23" dy="1.2em">stdio vs. vdso</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(303, 0)">
+			<rect x="0" y="195" width="46" height="5" style="fill: #dc3912"></rect>
+			<text class="value" x="23" y="181">0.98</text>
+			<text class="label" x="23" y ="220">
+				<tspan x="23">write</tspan>
+				<tspan x="23" dy="1.2em">vdso vs. syscall</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(399, 0)">
+			<rect x="0" y="172" width="46" height="28" style="fill: #dc3912"></rect>
+			<text class="value" x="23" y="158">5.44</text>
+			<text class="label" x="23" y ="220">
+				<tspan x="23">write</tspan>
+				<tspan x="23" dy="1.2em">stdio vs. vdso</tspan>
+			</text>
+		</g>
+		
+		<g transform="translate(0, 244)">
+			<g id="foo0">
+				<rect x="0" y="0" width="14" height="14" style="fill: #dc3912"></rect>
+				<text class="legend" x="18" y="12">Speedup A vs. B</text>
+			</g>
+		</g>
+	</g>
+</svg>

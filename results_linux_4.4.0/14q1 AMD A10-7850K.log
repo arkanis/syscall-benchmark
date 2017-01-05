@@ -1,0 +1,238 @@
+CPU: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+CPU year: 2014 Q1
+CPU info: http://www.cpu-world.com/CPUs/Bulldozer/AMD-A10-Series%20A10-7850K.html
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.024 user 0.021 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.020 user 0.016 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.021 user 0.016 system 0.000
+bench_01_null_call_stack
+average real 0.034 user 0.030 system 0.000
+real 0.032 user 0.028 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.036 user 0.032 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.041 user 0.036 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.032 user 0.028 system 0.000
+bench_02_getpid_syscall
+average real 0.817 user 0.314 system 0.499
+real 0.813 user 0.312 system 0.500
+real 0.818 user 0.320 system 0.496
+real 0.812 user 0.292 system 0.516
+real 0.806 user 0.284 system 0.520
+real 0.820 user 0.340 system 0.476
+real 0.823 user 0.328 system 0.492
+real 0.816 user 0.304 system 0.508
+real 0.819 user 0.356 system 0.460
+real 0.824 user 0.296 system 0.524
+real 0.816 user 0.312 system 0.500
+bench_03_getpid_vdso
+average real 0.048 user 0.046 system 0.000
+real 0.050 user 0.048 system 0.000
+real 0.043 user 0.040 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.049 user 0.048 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.044 user 0.040 system 0.000
+real 0.046 user 0.044 system 0.000
+real 0.054 user 0.052 system 0.000
+real 0.049 user 0.048 system 0.000
+real 0.051 user 0.048 system 0.000
+bench_10_read_syscall
+average real 0.161 user 0.034 system 0.124
+real 0.162 user 0.048 system 0.112
+real 0.158 user 0.028 system 0.128
+real 0.159 user 0.028 system 0.128
+real 0.167 user 0.040 system 0.124
+real 0.158 user 0.036 system 0.120
+real 0.163 user 0.040 system 0.120
+real 0.160 user 0.020 system 0.136
+real 0.158 user 0.036 system 0.120
+real 0.162 user 0.032 system 0.128
+real 0.162 user 0.036 system 0.124
+bench_11_read_vdso
+average real 0.163 user 0.038 system 0.122
+real 0.167 user 0.036 system 0.128
+real 0.161 user 0.044 system 0.116
+real 0.162 user 0.032 system 0.128
+real 0.166 user 0.032 system 0.132
+real 0.159 user 0.024 system 0.132
+real 0.159 user 0.036 system 0.120
+real 0.165 user 0.060 system 0.104
+real 0.162 user 0.036 system 0.124
+real 0.166 user 0.036 system 0.128
+real 0.159 user 0.044 system 0.112
+bench_12_read_stdio
+average real 0.020 user 0.017 system 0.000
+real 0.018 user 0.016 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.022 user 0.016 system 0.004
+real 0.017 user 0.016 system 0.000
+real 0.016 user 0.012 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.017 user 0.016 system 0.000
+bench_20_write_syscall
+average real 0.129 user 0.031 system 0.095
+real 0.129 user 0.024 system 0.104
+real 0.129 user 0.040 system 0.088
+real 0.127 user 0.036 system 0.088
+real 0.127 user 0.020 system 0.104
+real 0.124 user 0.028 system 0.092
+real 0.133 user 0.028 system 0.104
+real 0.127 user 0.036 system 0.088
+real 0.137 user 0.032 system 0.104
+real 0.128 user 0.032 system 0.092
+real 0.124 user 0.036 system 0.084
+bench_21_write_vdso
+average real 0.131 user 0.041 system 0.087
+real 0.134 user 0.040 system 0.092
+real 0.133 user 0.040 system 0.092
+real 0.125 user 0.040 system 0.084
+real 0.134 user 0.052 system 0.080
+real 0.128 user 0.036 system 0.088
+real 0.131 user 0.040 system 0.088
+real 0.126 user 0.056 system 0.068
+real 0.132 user 0.040 system 0.088
+real 0.135 user 0.044 system 0.088
+real 0.127 user 0.024 system 0.100
+bench_22_write_stdio
+average real 0.021 user 0.019 system 0.000
+real 0.021 user 0.020 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.018 user 0.016 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.025 user 0.024 system 0.000
+
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 48
+model name	: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+stepping	: 1
+microcode	: 0x6003106
+cpu MHz		: 3700.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 2
+apicid		: 16
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf eagerfpu pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 popcnt aes xsave avx f16c lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 tce nodeid_msr tbm topoext perfctr_core perfctr_nb bpext cpb hw_pstate vmmcall fsgsbase bmi1 xsaveopt arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7400.95
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb eff_freq_ro [13]
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 48
+model name	: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+stepping	: 1
+microcode	: 0x6003106
+cpu MHz		: 1700.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 2
+apicid		: 17
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf eagerfpu pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 popcnt aes xsave avx f16c lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 tce nodeid_msr tbm topoext perfctr_core perfctr_nb bpext cpb hw_pstate vmmcall fsgsbase bmi1 xsaveopt arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7400.95
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb eff_freq_ro [13]
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 48
+model name	: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+stepping	: 1
+microcode	: 0x6003106
+cpu MHz		: 1700.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 2
+apicid		: 18
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf eagerfpu pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 popcnt aes xsave avx f16c lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 tce nodeid_msr tbm topoext perfctr_core perfctr_nb bpext cpb hw_pstate vmmcall fsgsbase bmi1 xsaveopt arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7400.95
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb eff_freq_ro [13]
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 48
+model name	: AMD A10-7850K Radeon R7, 12 Compute Cores 4C+8G
+stepping	: 1
+microcode	: 0x6003106
+cpu MHz		: 1700.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 2
+apicid		: 19
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf eagerfpu pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 popcnt aes xsave avx f16c lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 tce nodeid_msr tbm topoext perfctr_core perfctr_nb bpext cpb hw_pstate vmmcall fsgsbase bmi1 xsaveopt arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7400.95
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb eff_freq_ro [13]
+

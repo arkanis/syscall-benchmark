@@ -1,0 +1,6 @@
+Celeron 430		Q2 07	SL9XN
+Core2 Duo E6400	Q3 06	SL9T9
+Pentium E2160	Q3 06	SLA8Z
+Pentium D 820		Q2 05	SL8CP
+Pentium 4 660		Q1 05	SL7Z5
+Celeron D 341		Q2 04	SL8HB

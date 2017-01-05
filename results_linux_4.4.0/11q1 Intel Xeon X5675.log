@@ -1,0 +1,450 @@
+CPU: Intel® Xeon® Processor X5675 (12M Cache, 3.06 GHz, 6.40 GT/s Intel® QPI)
+CPU year: 2011 Q1
+CPU info: http://ark.intel.com/products/52577/Intel-Xeon-Processor-X5675-12M-Cache-3_06-GHz-6_40-GTs-Intel-QPI?q=X5675
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.026 user 0.023 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.027 user 0.024 system 0.000
+bench_01_null_call_stack
+average real 0.026 user 0.023 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.024 user 0.020 system 0.004
+real 0.025 user 0.024 system 0.000
+bench_02_getpid_syscall
+average real 0.466 user 0.156 system 0.308
+real 0.447 user 0.128 system 0.316
+real 0.479 user 0.152 system 0.324
+real 0.466 user 0.172 system 0.292
+real 0.448 user 0.204 system 0.240
+real 0.434 user 0.148 system 0.284
+real 0.503 user 0.176 system 0.324
+real 0.460 user 0.108 system 0.348
+real 0.473 user 0.164 system 0.308
+real 0.448 user 0.124 system 0.320
+real 0.501 user 0.180 system 0.320
+bench_03_getpid_vdso
+average real 0.050 user 0.048 system 0.000
+real 0.054 user 0.052 system 0.000
+real 0.053 user 0.052 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.052 user 0.048 system 0.000
+real 0.050 user 0.048 system 0.000
+real 0.047 user 0.044 system 0.000
+real 0.057 user 0.056 system 0.000
+bench_10_read_syscall
+average real 0.135 user 0.018 system 0.114
+real 0.137 user 0.012 system 0.124
+real 0.133 user 0.016 system 0.116
+real 0.136 user 0.012 system 0.120
+real 0.134 user 0.024 system 0.108
+real 0.132 user 0.032 system 0.096
+real 0.132 user 0.016 system 0.112
+real 0.138 user 0.020 system 0.116
+real 0.135 user 0.016 system 0.116
+real 0.140 user 0.016 system 0.120
+real 0.136 user 0.020 system 0.116
+bench_11_read_vdso
+average real 0.140 user 0.024 system 0.114
+real 0.140 user 0.028 system 0.112
+real 0.136 user 0.024 system 0.112
+real 0.136 user 0.020 system 0.116
+real 0.139 user 0.008 system 0.128
+real 0.139 user 0.004 system 0.132
+real 0.141 user 0.044 system 0.096
+real 0.146 user 0.024 system 0.120
+real 0.143 user 0.044 system 0.096
+real 0.141 user 0.012 system 0.128
+real 0.143 user 0.036 system 0.104
+bench_12_read_stdio
+average real 0.024 user 0.021 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.024 user 0.024 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.027 user 0.024 system 0.000
+bench_20_write_syscall
+average real 0.098 user 0.022 system 0.073
+real 0.097 user 0.028 system 0.068
+real 0.100 user 0.016 system 0.080
+real 0.096 user 0.048 system 0.044
+real 0.100 user 0.040 system 0.056
+real 0.097 user 0.028 system 0.068
+real 0.095 user 0.004 system 0.088
+real 0.096 user 0.012 system 0.080
+real 0.095 user 0.008 system 0.084
+real 0.100 user 0.012 system 0.084
+real 0.101 user 0.024 system 0.076
+bench_21_write_vdso
+average real 0.105 user 0.020 system 0.083
+real 0.106 user 0.020 system 0.084
+real 0.105 user 0.000 system 0.104
+real 0.109 user 0.020 system 0.088
+real 0.101 user 0.016 system 0.084
+real 0.100 user 0.028 system 0.068
+real 0.106 user 0.016 system 0.088
+real 0.107 user 0.020 system 0.084
+real 0.107 user 0.020 system 0.084
+real 0.103 user 0.024 system 0.076
+real 0.103 user 0.032 system 0.068
+bench_22_write_stdio
+average real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.024 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 0
+cpu cores	: 6
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1733.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 1
+cpu cores	: 6
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 2
+cpu cores	: 6
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 8
+cpu cores	: 6
+apicid		: 16
+initial apicid	: 16
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 9
+cpu cores	: 6
+apicid		: 18
+initial apicid	: 18
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1867.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 10
+cpu cores	: 6
+apicid		: 20
+initial apicid	: 20
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 3068.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 0
+cpu cores	: 6
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 1
+cpu cores	: 6
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 8
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 2
+cpu cores	: 6
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 9
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 8
+cpu cores	: 6
+apicid		: 17
+initial apicid	: 17
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 10
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 9
+cpu cores	: 6
+apicid		: 19
+initial apicid	: 19
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+
+processor	: 11
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 44
+model name	: Intel(R) Xeon(R) CPU           X5675  @ 3.07GHz
+stepping	: 2
+microcode	: 0x13
+cpu MHz		: 1600.000
+cache size	: 12288 KB
+physical id	: 0
+siblings	: 12
+core id		: 10
+cpu cores	: 6
+apicid		: 21
+initial apicid	: 21
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 11
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm pcid dca sse4_1 sse4_2 popcnt aes lahf_lm epb tpr_shadow vnmi flexpriority ept vpid dtherm ida arat
+bugs		:
+bogomips	: 6147.40
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 40 bits physical, 48 bits virtual
+power management:
+

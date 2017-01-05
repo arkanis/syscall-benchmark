@@ -1,0 +1,176 @@
+CPU Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
+Linux Douglas 3.16.0-38-generic #52~14.04.1-Ubuntu SMP Fri May 8 09:43:57 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.030 user 0.027 system 0.001
+real 0.035 user 0.030 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.034 user 0.028 system 0.000
+real 0.033 user 0.024 system 0.004
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.028 user 0.024 system 0.004
+real 0.028 user 0.028 system 0.000
+bench_01_null_call_stack
+average real 0.031 user 0.028 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.029 user 0.029 system 0.000
+real 0.036 user 0.028 system 0.000
+real 0.031 user 0.031 system 0.000
+real 0.034 user 0.028 system 0.000
+real 0.029 user 0.029 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.029 user 0.029 system 0.000
+real 0.029 user 0.025 system 0.004
+real 0.030 user 0.028 system 0.000
+bench_02_getpid_syscall
+average real 0.954 user 0.362 system 0.586
+real 0.966 user 0.389 system 0.560
+real 0.954 user 0.304 system 0.645
+real 0.950 user 0.348 system 0.600
+real 0.945 user 0.372 system 0.572
+real 0.948 user 0.347 system 0.599
+real 0.948 user 0.415 system 0.531
+real 0.945 user 0.363 system 0.579
+real 0.942 user 0.312 system 0.628
+real 0.959 user 0.427 system 0.528
+real 0.987 user 0.342 system 0.616
+bench_03_getpid_vdso
+average real 0.067 user 0.064 system 0.001
+real 0.071 user 0.065 system 0.000
+real 0.066 user 0.065 system 0.000
+real 0.072 user 0.065 system 0.000
+real 0.067 user 0.065 system 0.000
+real 0.067 user 0.060 system 0.005
+real 0.065 user 0.065 system 0.000
+real 0.065 user 0.065 system 0.000
+real 0.065 user 0.065 system 0.000
+real 0.071 user 0.061 system 0.004
+real 0.065 user 0.065 system 0.000
+bench_10_read_syscall
+average real 0.213 user 0.030 system 0.174
+real 0.215 user 0.020 system 0.182
+real 0.207 user 0.037 system 0.167
+real 0.206 user 0.044 system 0.160
+real 0.216 user 0.058 system 0.144
+real 0.208 user 0.016 system 0.191
+real 0.212 user 0.032 system 0.171
+real 0.219 user 0.039 system 0.168
+real 0.209 user 0.012 system 0.189
+real 0.228 user 0.020 system 0.187
+real 0.208 user 0.024 system 0.179
+bench_11_read_vdso
+average real 0.219 user 0.052 system 0.161
+real 0.221 user 0.036 system 0.179
+real 0.226 user 0.068 system 0.149
+real 0.215 user 0.024 system 0.190
+real 0.212 user 0.036 system 0.173
+real 0.212 user 0.057 system 0.150
+real 0.215 user 0.066 system 0.144
+real 0.216 user 0.060 system 0.152
+real 0.219 user 0.061 system 0.151
+real 0.231 user 0.051 system 0.163
+real 0.223 user 0.056 system 0.160
+bench_12_read_stdio
+average real 0.028 user 0.025 system 0.001
+real 0.028 user 0.025 system 0.000
+real 0.029 user 0.025 system 0.000
+real 0.025 user 0.025 system 0.000
+real 0.038 user 0.033 system 0.004
+real 0.025 user 0.021 system 0.004
+real 0.025 user 0.025 system 0.000
+real 0.025 user 0.025 system 0.000
+real 0.032 user 0.021 system 0.004
+real 0.025 user 0.025 system 0.000
+real 0.025 user 0.024 system 0.000
+bench_20_write_syscall
+average real 0.213 user 0.032 system 0.173
+real 0.219 user 0.027 system 0.182
+real 0.212 user 0.051 system 0.153
+real 0.217 user 0.031 system 0.175
+real 0.211 user 0.037 system 0.168
+real 0.208 user 0.016 system 0.190
+real 0.214 user 0.056 system 0.145
+real 0.219 user 0.025 system 0.184
+real 0.206 user 0.028 system 0.175
+real 0.217 user 0.040 system 0.167
+real 0.208 user 0.012 system 0.189
+bench_21_write_vdso
+average real 0.216 user 0.036 system 0.173
+real 0.224 user 0.023 system 0.184
+real 0.225 user 0.031 system 0.185
+real 0.214 user 0.024 system 0.183
+real 0.213 user 0.049 system 0.162
+real 0.220 user 0.031 system 0.174
+real 0.218 user 0.032 system 0.186
+real 0.216 user 0.028 system 0.178
+real 0.209 user 0.039 system 0.165
+real 0.213 user 0.053 system 0.154
+real 0.203 user 0.048 system 0.155
+bench_22_write_stdio
+average real 0.032 user 0.030 system 0.000
+real 0.035 user 0.031 system 0.000
+real 0.031 user 0.029 system 0.000
+real 0.036 user 0.035 system 0.000
+real 0.031 user 0.029 system 0.000
+real 0.034 user 0.030 system 0.000
+real 0.030 user 0.030 system 0.000
+real 0.034 user 0.030 system 0.000
+real 0.030 user 0.030 system 0.000
+real 0.030 user 0.030 system 0.000
+real 0.030 user 0.029 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
+stepping	: 10
+microcode	: 0xa07
+cpu MHz		: 2200.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm dtherm
+bogomips	: 4388.97
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
+stepping	: 10
+microcode	: 0xa07
+cpu MHz		: 2200.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm dtherm
+bogomips	: 4388.97
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+

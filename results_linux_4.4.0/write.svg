@@ -1,0 +1,244 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="1268" height="338">
+	<defs>
+		<style type="text/css">
+			text { font-family: sans-serif; font-size: 14px; color: #333; }
+			text.value { text-anchor: middle; }
+			text.unit { text-anchor: middle; font-size: 12px; }
+			text.label { text-anchor: middle; font-size: 10px; }
+			text.legend {}
+		</style>
+	</defs>
+	<g transform="translate(10, 10)">
+		<g>
+			<rect x="0" y="0" width="1248" height="1" fill="#ccc"></rect>
+			<rect x="0" y="40" width="1248" height="1" fill="#ccc"></rect>
+			<rect x="0" y="80" width="1248" height="1" fill="#ccc"></rect>
+			<rect x="0" y="120" width="1248" height="1" fill="#ccc"></rect>
+			<rect x="0" y="160" width="1248" height="1" fill="#ccc"></rect>
+			<rect x="0" y="200" width="1248" height="1" fill="black"></rect>
+		</g>
+		<g id="records" transform="translate(10, 0)">
+			<rect x="0" y="44" width="22" height="156" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="24">349</text>
+			<text class="unit" x="11" y="38">ns</text>
+			<rect x="27" y="36" width="22" height="164" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="16">367</text>
+			<text class="unit" x="38" y="30">ns</text>
+			<rect x="54" y="174" width="22" height="26" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="154">57</text>
+			<text class="unit" x="65" y="168">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Celeron D 341</tspan>
+				<tspan x="38" dy="1.2em">2004 Q2</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(106, 0)">
+			<rect x="0" y="58" width="22" height="142" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="38">318</text>
+			<text class="unit" x="11" y="52">ns</text>
+			<rect x="27" y="55" width="22" height="145" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="35">326</text>
+			<text class="unit" x="38" y="49">ns</text>
+			<rect x="54" y="180" width="22" height="20" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="160">45</text>
+			<text class="unit" x="65" y="174">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Pentium 4 660</tspan>
+				<tspan x="38" dy="1.2em">2005 Q1</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(202, 0)">
+			<rect x="0" y="100" width="22" height="100" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="80">225</text>
+			<text class="unit" x="11" y="94">ns</text>
+			<rect x="27" y="111" width="22" height="89" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="91">200</text>
+			<text class="unit" x="38" y="105">ns</text>
+			<rect x="54" y="182" width="22" height="18" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="162">40</text>
+			<text class="unit" x="65" y="176">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">AMD</tspan>
+				<tspan x="38" dy="1.2em">Athlon 64 X2 4200+</tspan>
+				<tspan x="38" dy="1.2em">2005 Q2</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(298, 0)">
+			<rect x="0" y="59" width="22" height="141" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="39">316</text>
+			<text class="unit" x="11" y="53">ns</text>
+			<rect x="27" y="56" width="22" height="144" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="36">324</text>
+			<text class="unit" x="38" y="50">ns</text>
+			<rect x="54" y="181" width="22" height="19" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="161">42</text>
+			<text class="unit" x="65" y="175">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Pentium D 820</tspan>
+				<tspan x="38" dy="1.2em">2005 Q2</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(394, 0)">
+			<rect x="0" y="118" width="22" height="82" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="98">184</text>
+			<text class="unit" x="11" y="112">ns</text>
+			<rect x="27" y="115" width="22" height="85" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="95">190</text>
+			<text class="unit" x="38" y="109">ns</text>
+			<rect x="54" y="187" width="22" height="13" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="167">29</text>
+			<text class="unit" x="65" y="181">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Core 2 Duo E8400</tspan>
+				<tspan x="38" dy="1.2em">2008 Q1</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(490, 0)">
+			<rect x="0" y="120" width="22" height="80" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="100">180</text>
+			<text class="unit" x="11" y="114">ns</text>
+			<rect x="27" y="117" width="22" height="83" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="97">186</text>
+			<text class="unit" x="38" y="111">ns</text>
+			<rect x="54" y="185" width="22" height="15" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="165">32</text>
+			<text class="unit" x="65" y="179">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Core 2 Duo T6600</tspan>
+				<tspan x="38" dy="1.2em">2009 Q1</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(586, 0)">
+			<rect x="0" y="155" width="22" height="45" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="135">100</text>
+			<text class="unit" x="11" y="149">ns</text>
+			<rect x="27" y="155" width="22" height="45" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="135">100</text>
+			<text class="unit" x="38" y="149">ns</text>
+			<rect x="54" y="187" width="22" height="13" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="167">28</text>
+			<text class="unit" x="65" y="181">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">AMD</tspan>
+				<tspan x="38" dy="1.2em">Phenom II X2 555</tspan>
+				<tspan x="38" dy="1.2em">2010 Q1</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(682, 0)">
+			<rect x="0" y="156" width="22" height="44" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="136">98</text>
+			<text class="unit" x="11" y="150">ns</text>
+			<rect x="27" y="153" width="22" height="47" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="133">105</text>
+			<text class="unit" x="38" y="147">ns</text>
+			<rect x="54" y="188" width="22" height="12" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="168">27</text>
+			<text class="unit" x="65" y="182">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Xeon X5675</tspan>
+				<tspan x="38" dy="1.2em">2011 Q1</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(778, 0)">
+			<rect x="0" y="124" width="22" height="76" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="104">171</text>
+			<text class="unit" x="11" y="118">ns</text>
+			<rect x="27" y="122" width="22" height="78" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="102">174</text>
+			<text class="unit" x="38" y="116">ns</text>
+			<rect x="54" y="185" width="22" height="15" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="165">32</text>
+			<text class="unit" x="65" y="179">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">AMD</tspan>
+				<tspan x="38" dy="1.2em">FX-8150</tspan>
+				<tspan x="38" dy="1.2em">2011 Q4</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(874, 0)">
+			<rect x="0" y="172" width="22" height="28" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="152">61</text>
+			<text class="unit" x="11" y="166">ns</text>
+			<rect x="27" y="171" width="22" height="29" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="151">64</text>
+			<text class="unit" x="38" y="165">ns</text>
+			<rect x="54" y="194" width="22" height="6" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="174">13</text>
+			<text class="unit" x="65" y="188">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Core i5-4670K</tspan>
+				<tspan x="38" dy="1.2em">2013 Q2</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(970, 0)">
+			<rect x="0" y="142" width="22" height="58" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="122">129</text>
+			<text class="unit" x="11" y="136">ns</text>
+			<rect x="27" y="141" width="22" height="59" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="121">131</text>
+			<text class="unit" x="38" y="135">ns</text>
+			<rect x="54" y="190" width="22" height="10" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="170">21</text>
+			<text class="unit" x="65" y="184">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">AMD</tspan>
+				<tspan x="38" dy="1.2em">A10-7850K</tspan>
+				<tspan x="38" dy="1.2em">2014 Q1</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(1066, 0)">
+			<rect x="0" y="173" width="22" height="27" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="153">59</text>
+			<text class="unit" x="11" y="167">ns</text>
+			<rect x="27" y="172" width="22" height="28" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="152">62</text>
+			<text class="unit" x="38" y="166">ns</text>
+			<rect x="54" y="193" width="22" height="7" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="173">14</text>
+			<text class="unit" x="65" y="187">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Core i7-4790K</tspan>
+				<tspan x="38" dy="1.2em">2014 Q2</tspan>
+			</text>
+		</g>
+		<g id="records" transform="translate(1162, 0)">
+			<rect x="0" y="171" width="22" height="29" style="fill: #3366cc"></rect>
+			<text class="value" x="11" y="151">64</text>
+			<text class="unit" x="11" y="165">ns</text>
+			<rect x="27" y="172" width="22" height="28" style="fill: #4e9a06"></rect>
+			<text class="value" x="38" y="152">61</text>
+			<text class="unit" x="38" y="166">ns</text>
+			<rect x="54" y="194" width="22" height="6" style="fill: #dc3912"></rect>
+			<text class="value" x="65" y="174">13</text>
+			<text class="unit" x="65" y="188">ns</text>
+			<text class="label" x="38" y ="220">
+				<tspan x="38">Intel</tspan>
+				<tspan x="38" dy="1.2em">Core i5-5675C</tspan>
+				<tspan x="38" dy="1.2em">2015 Q2</tspan>
+			</text>
+		</g>
+		
+		<g transform="translate(0, 258)">
+			<g id="foo0">
+				<rect x="0" y="0" width="14" height="14" style="fill: #3366cc"></rect>
+				<text class="legend" x="18" y="12">write() via syscall instruction</text>
+			</g>
+			<g id="foo1">
+				<rect x="0" y="20" width="14" height="14" style="fill: #4e9a06"></rect>
+				<text class="legend" x="18" y="32">write() via vDSO</text>
+			</g>
+			<g id="foo2">
+				<rect x="0" y="40" width="14" height="14" style="fill: #dc3912"></rect>
+				<text class="legend" x="18" y="52">fwrite() from stdio</text>
+			</g>
+		</g>
+	</g>
+</svg>

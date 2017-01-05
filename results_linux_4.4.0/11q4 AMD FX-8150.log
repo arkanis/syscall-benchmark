@@ -1,0 +1,350 @@
+CPU: AMD FX-8150
+CPU year: 2011 Q4
+CPU info: http://www.cpu-world.com/CPUs/Bulldozer/AMD-FX-Series%20FX-8150.html
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.029 user 0.026 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.037 user 0.036 system 0.000
+real 0.033 user 0.032 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.030 user 0.028 system 0.000
+bench_01_null_call_stack
+average real 0.033 user 0.031 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.037 user 0.036 system 0.000
+real 0.037 user 0.036 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.033 user 0.032 system 0.000
+real 0.030 user 0.028 system 0.000
+bench_02_getpid_syscall
+average real 1.107 user 0.473 system 0.630
+real 1.104 user 0.468 system 0.632
+real 1.101 user 0.360 system 0.740
+real 1.118 user 0.480 system 0.636
+real 1.117 user 0.524 system 0.588
+real 1.095 user 0.468 system 0.624
+real 1.109 user 0.476 system 0.628
+real 1.096 user 0.448 system 0.644
+real 1.110 user 0.492 system 0.616
+real 1.116 user 0.500 system 0.612
+real 1.101 user 0.512 system 0.584
+bench_03_getpid_vdso
+average real 0.073 user 0.070 system 0.000
+real 0.045 user 0.044 system 0.000
+real 0.055 user 0.052 system 0.000
+real 0.051 user 0.048 system 0.000
+real 0.088 user 0.084 system 0.000
+real 0.108 user 0.104 system 0.000
+real 0.048 user 0.044 system 0.000
+real 0.071 user 0.068 system 0.000
+real 0.102 user 0.100 system 0.000
+real 0.056 user 0.052 system 0.000
+real 0.110 user 0.108 system 0.000
+bench_10_read_syscall
+average real 0.213 user 0.047 system 0.163
+real 0.217 user 0.068 system 0.148
+real 0.211 user 0.036 system 0.172
+real 0.212 user 0.040 system 0.168
+real 0.217 user 0.052 system 0.164
+real 0.205 user 0.048 system 0.156
+real 0.211 user 0.032 system 0.176
+real 0.209 user 0.028 system 0.180
+real 0.216 user 0.080 system 0.132
+real 0.208 user 0.052 system 0.152
+real 0.220 user 0.036 system 0.180
+bench_11_read_vdso
+average real 0.222 user 0.062 system 0.158
+real 0.218 user 0.064 system 0.152
+real 0.225 user 0.080 system 0.144
+real 0.225 user 0.036 system 0.188
+real 0.223 user 0.072 system 0.148
+real 0.216 user 0.068 system 0.144
+real 0.215 user 0.040 system 0.172
+real 0.228 user 0.072 system 0.152
+real 0.223 user 0.056 system 0.164
+real 0.225 user 0.064 system 0.160
+real 0.221 user 0.064 system 0.156
+bench_12_read_stdio
+average real 0.029 user 0.026 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.033 user 0.032 system 0.000
+real 0.034 user 0.032 system 0.000
+real 0.020 user 0.016 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.033 user 0.032 system 0.000
+real 0.032 user 0.028 system 0.004
+real 0.033 user 0.032 system 0.000
+bench_20_write_syscall
+average real 0.171 user 0.054 system 0.115
+real 0.166 user 0.040 system 0.124
+real 0.170 user 0.052 system 0.116
+real 0.165 user 0.044 system 0.120
+real 0.169 user 0.056 system 0.112
+real 0.174 user 0.068 system 0.104
+real 0.184 user 0.064 system 0.116
+real 0.166 user 0.068 system 0.096
+real 0.166 user 0.036 system 0.128
+real 0.177 user 0.052 system 0.124
+real 0.172 user 0.056 system 0.112
+bench_21_write_vdso
+average real 0.174 user 0.058 system 0.113
+real 0.170 user 0.052 system 0.116
+real 0.171 user 0.048 system 0.120
+real 0.173 user 0.044 system 0.128
+real 0.171 user 0.072 system 0.096
+real 0.171 user 0.060 system 0.108
+real 0.192 user 0.056 system 0.132
+real 0.173 user 0.068 system 0.104
+real 0.168 user 0.040 system 0.124
+real 0.174 user 0.084 system 0.088
+real 0.174 user 0.056 system 0.116
+bench_22_write_stdio
+average real 0.032 user 0.029 system 0.001
+real 0.034 user 0.032 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.038 user 0.032 system 0.004
+real 0.034 user 0.032 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.032 user 0.028 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.033 user 0.028 system 0.004
+real 0.036 user 0.032 system 0.000
+
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 2700.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 1400.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 1400.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 1400.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 7
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor	: 4
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 1400.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 4
+apicid		: 4
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor	: 5
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 1400.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 6
+cpu cores	: 4
+apicid		: 5
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor	: 6
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 1400.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 4
+cpu cores	: 4
+apicid		: 6
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+
+processor	: 7
+vendor_id	: AuthenticAMD
+cpu family	: 21
+model		: 1
+model name	: AMD FX(tm)-8150 Eight-Core Processor
+stepping	: 2
+microcode	: 0x6000629
+cpu MHz		: 1400.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 8
+core id		: 5
+cpu cores	: 4
+apicid		: 7
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni pclmulqdq monitor ssse3 cx16 sse4_1 sse4_2 popcnt aes xsave avx lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs xop skinit wdt lwp fma4 nodeid_msr topoext perfctr_core perfctr_nb cpb hw_pstate vmmcall arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold
+bugs		: fxsave_leak sysret_ss_attrs
+bogomips	: 7248.01
+TLB size	: 1536 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm 100mhzsteps hwpstate cpb
+

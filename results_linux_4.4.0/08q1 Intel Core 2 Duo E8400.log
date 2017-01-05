@@ -1,0 +1,180 @@
+CPU: Intel® Core™2 Duo Processor E8400 (6M Cache, 3.00 GHz, 1333 MHz FSB)
+CPU year: 2008 Q1
+CPU info: http://ark.intel.com/products/33910/Intel-Core2-Duo-Processor-E8400-6M-Cache-3_00-GHz-1333-MHz-FSB?q=core%202%20Duo%20E8400
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.025 user 0.022 system 0.000
+real 0.025 user 0.020 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.021 user 0.020 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.021 user 0.020 system 0.000
+real 0.021 user 0.020 system 0.000
+real 0.025 user 0.020 system 0.000
+real 0.026 user 0.024 system 0.000
+bench_01_null_call_stack
+average real 0.024 user 0.022 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.021 user 0.020 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.026 user 0.024 system 0.000
+bench_02_getpid_syscall
+average real 1.071 user 0.376 system 0.692
+real 1.060 user 0.360 system 0.696
+real 1.073 user 0.368 system 0.704
+real 1.069 user 0.424 system 0.640
+real 1.071 user 0.384 system 0.684
+real 1.080 user 0.376 system 0.700
+real 1.065 user 0.376 system 0.688
+real 1.073 user 0.368 system 0.700
+real 1.072 user 0.436 system 0.632
+real 1.073 user 0.308 system 0.760
+real 1.071 user 0.356 system 0.712
+bench_03_getpid_vdso
+average real 0.060 user 0.057 system 0.000
+real 0.050 user 0.044 system 0.000
+real 0.048 user 0.044 system 0.000
+real 0.056 user 0.052 system 0.000
+real 0.060 user 0.056 system 0.000
+real 0.060 user 0.056 system 0.000
+real 0.065 user 0.064 system 0.000
+real 0.066 user 0.064 system 0.000
+real 0.066 user 0.064 system 0.000
+real 0.066 user 0.064 system 0.000
+real 0.067 user 0.064 system 0.000
+bench_10_read_syscall
+average real 0.246 user 0.038 system 0.204
+real 0.240 user 0.016 system 0.220
+real 0.243 user 0.056 system 0.184
+real 0.240 user 0.040 system 0.196
+real 0.249 user 0.024 system 0.220
+real 0.246 user 0.044 system 0.200
+real 0.253 user 0.052 system 0.196
+real 0.239 user 0.024 system 0.212
+real 0.247 user 0.052 system 0.192
+real 0.253 user 0.048 system 0.200
+real 0.252 user 0.028 system 0.220
+bench_11_read_vdso
+average real 0.242 user 0.042 system 0.197
+real 0.246 user 0.044 system 0.196
+real 0.252 user 0.020 system 0.228
+real 0.245 user 0.028 system 0.212
+real 0.251 user 0.056 system 0.192
+real 0.251 user 0.044 system 0.204
+real 0.251 user 0.044 system 0.204
+real 0.251 user 0.044 system 0.204
+real 0.247 user 0.048 system 0.196
+real 0.191 user 0.056 system 0.132
+real 0.238 user 0.036 system 0.200
+bench_12_read_stdio
+average real 0.019 user 0.016 system 0.001
+real 0.020 user 0.016 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.018 user 0.016 system 0.000
+real 0.018 user 0.016 system 0.000
+real 0.018 user 0.012 system 0.004
+real 0.019 user 0.016 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.019 user 0.016 system 0.000
+real 0.021 user 0.016 system 0.000
+real 0.022 user 0.016 system 0.004
+bench_20_write_syscall
+average real 0.184 user 0.036 system 0.146
+real 0.180 user 0.020 system 0.156
+real 0.179 user 0.028 system 0.148
+real 0.184 user 0.040 system 0.140
+real 0.184 user 0.064 system 0.116
+real 0.189 user 0.032 system 0.156
+real 0.189 user 0.032 system 0.156
+real 0.182 user 0.020 system 0.160
+real 0.183 user 0.040 system 0.140
+real 0.189 user 0.040 system 0.148
+real 0.183 user 0.040 system 0.140
+bench_21_write_vdso
+average real 0.190 user 0.049 system 0.138
+real 0.184 user 0.064 system 0.116
+real 0.189 user 0.044 system 0.140
+real 0.195 user 0.068 system 0.124
+real 0.190 user 0.036 system 0.152
+real 0.198 user 0.048 system 0.148
+real 0.191 user 0.056 system 0.132
+real 0.187 user 0.048 system 0.136
+real 0.188 user 0.040 system 0.144
+real 0.183 user 0.048 system 0.132
+real 0.191 user 0.036 system 0.152
+bench_22_write_stdio
+average real 0.029 user 0.026 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.029 user 0.024 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.031 user 0.028 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz
+stepping	: 10
+microcode	: 0xa07
+cpu MHz		: 2997.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm tpr_shadow vnmi flexpriority dtherm
+bugs		:
+bogomips	: 5990.23
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     E8400  @ 3.00GHz
+stepping	: 10
+microcode	: 0xa07
+cpu MHz		: 2997.000
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl vmx smx est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm tpr_shadow vnmi flexpriority dtherm
+bugs		:
+bogomips	: 5990.23
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+

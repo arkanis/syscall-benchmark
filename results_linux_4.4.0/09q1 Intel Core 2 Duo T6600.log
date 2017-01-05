@@ -1,0 +1,180 @@
+CPU: Intel® Core™2 Duo Processor T6600 (2M Cache, 2.20 GHz, 800 MHz FSB)
+CPU year: 2009 Q1 
+CPU info: http://ark.intel.com/products/37255/Intel-Core2-Duo-Processor-T6600-2M-Cache-2_20-GHz-800-MHz-FSB?q=Core%202%20Duo%20T6600
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.030 user 0.025 system 0.000
+real 0.029 user 0.024 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.029 user 0.024 system 0.000
+real 0.030 user 0.024 system 0.000
+real 0.029 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.029 user 0.024 system 0.000
+real 0.032 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+bench_01_null_call_stack
+average real 0.030 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.030 user 0.028 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.030 user 0.028 system 0.000
+real 0.031 user 0.024 system 0.004
+bench_02_getpid_syscall
+average real 0.993 user 0.319 system 0.669
+real 0.992 user 0.364 system 0.624
+real 0.998 user 0.348 system 0.640
+real 0.991 user 0.296 system 0.692
+real 0.992 user 0.292 system 0.696
+real 0.990 user 0.316 system 0.672
+real 0.994 user 0.324 system 0.664
+real 0.992 user 0.308 system 0.680
+real 0.994 user 0.308 system 0.680
+real 0.994 user 0.336 system 0.652
+real 0.990 user 0.300 system 0.688
+bench_03_getpid_vdso
+average real 0.067 user 0.064 system 0.000
+real 0.067 user 0.064 system 0.000
+real 0.067 user 0.064 system 0.000
+real 0.067 user 0.064 system 0.000
+real 0.070 user 0.068 system 0.000
+real 0.066 user 0.064 system 0.000
+real 0.066 user 0.064 system 0.000
+real 0.065 user 0.064 system 0.000
+real 0.068 user 0.064 system 0.000
+real 0.065 user 0.064 system 0.000
+real 0.067 user 0.064 system 0.000
+bench_10_read_syscall
+average real 0.240 user 0.044 system 0.191
+real 0.240 user 0.056 system 0.176
+real 0.239 user 0.040 system 0.192
+real 0.240 user 0.064 system 0.172
+real 0.239 user 0.036 system 0.196
+real 0.239 user 0.036 system 0.200
+real 0.239 user 0.052 system 0.184
+real 0.239 user 0.036 system 0.200
+real 0.240 user 0.036 system 0.200
+real 0.239 user 0.036 system 0.200
+real 0.244 user 0.044 system 0.192
+bench_11_read_vdso
+average real 0.243 user 0.037 system 0.202
+real 0.244 user 0.060 system 0.180
+real 0.241 user 0.032 system 0.204
+real 0.246 user 0.036 system 0.208
+real 0.245 user 0.028 system 0.212
+real 0.242 user 0.028 system 0.212
+real 0.242 user 0.040 system 0.196
+real 0.244 user 0.032 system 0.204
+real 0.242 user 0.052 system 0.188
+real 0.245 user 0.056 system 0.184
+real 0.243 user 0.008 system 0.232
+bench_12_read_stdio
+average real 0.027 user 0.024 system 0.001
+real 0.026 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.029 user 0.020 system 0.004
+real 0.029 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.029 user 0.024 system 0.004
+real 0.026 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+bench_20_write_syscall
+average real 0.180 user 0.035 system 0.141
+real 0.179 user 0.052 system 0.124
+real 0.181 user 0.052 system 0.124
+real 0.181 user 0.032 system 0.144
+real 0.180 user 0.012 system 0.164
+real 0.180 user 0.020 system 0.156
+real 0.182 user 0.036 system 0.140
+real 0.182 user 0.036 system 0.144
+real 0.180 user 0.032 system 0.144
+real 0.180 user 0.032 system 0.144
+real 0.180 user 0.048 system 0.128
+bench_21_write_vdso
+average real 0.186 user 0.045 system 0.138
+real 0.189 user 0.044 system 0.140
+real 0.186 user 0.064 system 0.120
+real 0.186 user 0.036 system 0.148
+real 0.186 user 0.048 system 0.132
+real 0.184 user 0.040 system 0.140
+real 0.186 user 0.044 system 0.140
+real 0.184 user 0.052 system 0.128
+real 0.188 user 0.044 system 0.140
+real 0.187 user 0.040 system 0.144
+real 0.186 user 0.040 system 0.144
+bench_22_write_stdio
+average real 0.032 user 0.028 system 0.001
+real 0.037 user 0.032 system 0.004
+real 0.031 user 0.028 system 0.000
+real 0.033 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.032 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.032 user 0.024 system 0.004
+real 0.035 user 0.032 system 0.000
+real 0.031 user 0.028 system 0.000
+
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
+stepping	: 10
+microcode	: 0xa07
+cpu MHz		: 2200.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 0
+cpu cores	: 2
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm dtherm
+bugs		:
+bogomips	: 4389.01
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 23
+model name	: Intel(R) Core(TM)2 Duo CPU     T6600  @ 2.20GHz
+stepping	: 10
+microcode	: 0xa07
+cpu MHz		: 1200.000
+cache size	: 2048 KB
+physical id	: 0
+siblings	: 2
+core id		: 1
+cpu cores	: 2
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 13
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx lm constant_tsc arch_perfmon pebs bts rep_good nopl aperfmperf pni dtes64 monitor ds_cpl est tm2 ssse3 cx16 xtpr pdcm sse4_1 xsave lahf_lm dtherm
+bugs		:
+bogomips	: 4389.01
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 36 bits physical, 48 bits virtual
+power management:
+

@@ -1,0 +1,238 @@
+CPU: AMD Phenom II X2 555 (unlocked to 4 cores and overclocked, reported as CPU AMD Phenom(tm) II X4 B55 Processor)
+CPU year: 2010 Q1
+CPU info: http://www.cpu-world.com/CPUs/K10/AMD-Phenom%20II%20X2%20555%20-%20HDZ555WFK2DGM%20%28HDZ555WFGMBOX%29.html
+Kernel: Linux mint 4.4.0-21-generic #37-Ubuntu SMP Mon Apr 18 18:33:37 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+
+bench_00_null_call_regs
+average real 0.023 user 0.021 system 0.000
+real 0.021 user 0.020 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.017 user 0.016 system 0.000
+real 0.018 user 0.016 system 0.000
+bench_01_null_call_stack
+average real 0.036 user 0.034 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.041 user 0.040 system 0.000
+real 0.040 user 0.036 system 0.000
+real 0.038 user 0.036 system 0.000
+real 0.039 user 0.036 system 0.000
+real 0.028 user 0.028 system 0.000
+real 0.038 user 0.036 system 0.000
+real 0.029 user 0.028 system 0.000
+real 0.035 user 0.032 system 0.000
+real 0.035 user 0.032 system 0.000
+bench_02_getpid_syscall
+average real 0.452 user 0.164 system 0.285
+real 0.448 user 0.184 system 0.260
+real 0.448 user 0.152 system 0.292
+real 0.462 user 0.168 system 0.292
+real 0.445 user 0.144 system 0.296
+real 0.452 user 0.160 system 0.288
+real 0.448 user 0.200 system 0.244
+real 0.454 user 0.144 system 0.308
+real 0.454 user 0.144 system 0.308
+real 0.458 user 0.176 system 0.280
+real 0.451 user 0.164 system 0.284
+bench_03_getpid_vdso
+average real 0.053 user 0.050 system 0.000
+real 0.053 user 0.052 system 0.000
+real 0.048 user 0.044 system 0.000
+real 0.064 user 0.060 system 0.000
+real 0.052 user 0.048 system 0.000
+real 0.040 user 0.036 system 0.000
+real 0.041 user 0.040 system 0.000
+real 0.060 user 0.060 system 0.000
+real 0.065 user 0.064 system 0.000
+real 0.046 user 0.044 system 0.000
+real 0.057 user 0.052 system 0.000
+bench_10_read_syscall
+average real 0.132 user 0.021 system 0.109
+real 0.127 user 0.024 system 0.100
+real 0.130 user 0.024 system 0.104
+real 0.135 user 0.008 system 0.124
+real 0.141 user 0.024 system 0.116
+real 0.133 user 0.016 system 0.116
+real 0.131 user 0.028 system 0.100
+real 0.131 user 0.024 system 0.104
+real 0.131 user 0.020 system 0.108
+real 0.131 user 0.016 system 0.112
+real 0.129 user 0.024 system 0.104
+bench_11_read_vdso
+average real 0.133 user 0.022 system 0.108
+real 0.129 user 0.016 system 0.112
+real 0.123 user 0.020 system 0.100
+real 0.144 user 0.016 system 0.124
+real 0.135 user 0.024 system 0.108
+real 0.130 user 0.004 system 0.124
+real 0.141 user 0.028 system 0.112
+real 0.132 user 0.012 system 0.116
+real 0.131 user 0.024 system 0.104
+real 0.132 user 0.036 system 0.092
+real 0.132 user 0.036 system 0.092
+bench_12_read_stdio
+average real 0.023 user 0.021 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.015 user 0.012 system 0.000
+real 0.026 user 0.024 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.025 user 0.024 system 0.000
+real 0.016 user 0.012 system 0.000
+real 0.022 user 0.020 system 0.000
+real 0.030 user 0.028 system 0.000
+bench_20_write_syscall
+average real 0.100 user 0.018 system 0.080
+real 0.094 user 0.020 system 0.072
+real 0.101 user 0.020 system 0.076
+real 0.096 user 0.012 system 0.080
+real 0.104 user 0.012 system 0.088
+real 0.103 user 0.020 system 0.080
+real 0.101 user 0.024 system 0.076
+real 0.105 user 0.000 system 0.104
+real 0.101 user 0.016 system 0.084
+real 0.090 user 0.012 system 0.076
+real 0.108 user 0.044 system 0.060
+bench_21_write_vdso
+average real 0.100 user 0.021 system 0.077
+real 0.095 user 0.024 system 0.068
+real 0.105 user 0.032 system 0.068
+real 0.093 user 0.012 system 0.080
+real 0.095 user 0.028 system 0.064
+real 0.093 user 0.032 system 0.060
+real 0.100 user 0.020 system 0.076
+real 0.105 user 0.008 system 0.096
+real 0.108 user 0.016 system 0.088
+real 0.105 user 0.024 system 0.080
+real 0.101 user 0.012 system 0.088
+bench_22_write_stdio
+average real 0.028 user 0.025 system 0.000
+real 0.023 user 0.020 system 0.000
+real 0.030 user 0.028 system 0.000
+real 0.030 user 0.028 system 0.000
+real 0.024 user 0.020 system 0.000
+real 0.037 user 0.036 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.027 user 0.024 system 0.000
+real 0.028 user 0.024 system 0.000
+real 0.031 user 0.028 system 0.000
+real 0.021 user 0.020 system 0.000
+
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 B55 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 800.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate vmmcall npt lbrv svm_lock nrip_save
+bugs		: tlb_mmatch apic_c1e fxsave_leak sysret_ss_attrs
+bogomips	: 7224.26
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
+processor	: 1
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 B55 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 800.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate vmmcall npt lbrv svm_lock nrip_save
+bugs		: tlb_mmatch apic_c1e fxsave_leak sysret_ss_attrs
+bogomips	: 7224.26
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
+processor	: 2
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 B55 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 3600.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate vmmcall npt lbrv svm_lock nrip_save
+bugs		: tlb_mmatch apic_c1e fxsave_leak sysret_ss_attrs
+bogomips	: 7224.26
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
+processor	: 3
+vendor_id	: AuthenticAMD
+cpu family	: 16
+model		: 4
+model name	: AMD Phenom(tm) II X4 B55 Processor
+stepping	: 3
+microcode	: 0x10000c8
+cpu MHz		: 800.000
+cache size	: 512 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm 3dnowext 3dnow constant_tsc rep_good nopl nonstop_tsc extd_apicid pni monitor cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt hw_pstate vmmcall npt lbrv svm_lock nrip_save
+bugs		: tlb_mmatch apic_c1e fxsave_leak sysret_ss_attrs
+bogomips	: 7224.26
+TLB size	: 1024 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 48 bits physical, 48 bits virtual
+power management: ts ttp tm stc 100mhzsteps hwpstate
+
